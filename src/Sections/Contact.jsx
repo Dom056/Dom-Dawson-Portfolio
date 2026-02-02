@@ -11,10 +11,11 @@ function  Contact() {
             <h3>Get in Touch:</h3>
             <button 
                 className="Email" 
-                onClick={() => {window.location.href = "mailto:dominicdawson99@gmail.com"}}>
+                onClick={() => {navigator.clipboard.writeText("dominicdawson99@gmail.com")}}>
                 <img src={Email} alt="Email" /> Email Me</button>
             <button 
-                className="Phone">
+                className="Phone"
+                onClick={() => {navigator.clipboard.writeText("+447482466757")}}>
                 <img src={Phone} alt="Phone" /> Phone</button>
             <h3>Or find me on:</h3>
             <button 
