@@ -10,7 +10,9 @@ function AboutMe() {
             <p>Currently looking for an internship for internships so I can get some real world experience and to learn from experienced software engineers as I develop my skill set </p >
             <img src="" alt="Dom Dawson"/>
             <p>If you're interested in working with me, feel free to check out my CV</p>
-            <button>Download CV</button>
+            <a href="/Dom Dawson CV.pdf" download="Dom Dawson CV.pdf">
+            <button className="CV">Download CV</button>
+            </a>
                 <div>
                 <h3>Skills:</h3>
                 <SmallBox content="Python"/>
