@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar.jsx'
 import AboutMe from './Sections/AboutMe.jsx'
 import Project from './Sections/Project.jsx'
 import Contact from './Sections/Contact.jsx'
-
+import './App.css'
 
 
 function App() {
@@ -15,19 +15,19 @@ function App() {
     <>
       <NavBar />
       <></>
-      <div>
+      <div id="intro">
       <Title/>
       <Intro />
       </div>
-      <div>
+      <div id="about">
       <Header header="About Me" />
       <AboutMe />
       </div>
-      <div>
+      <div id="projects">
       <Header header="Projects" />
       <Project />
       </div>
-      <div>
+      <div id="contact">
       <Header header="Contact" />
       <Contact />
       </div>

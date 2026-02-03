@@ -3,5 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#intro, #about, #projects, #contact {
+  padding-top: 40px;
+  margin-top: -40px;
+}

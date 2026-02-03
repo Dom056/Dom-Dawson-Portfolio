@@ -9,10 +9,6 @@ function AboutMe() {
             <p>Outside of coding I'm constantly working on DIY tech projects, whether it be tinkering with raspberry pis to create a home assistant, dabbling in electronics or 3D printing custom housings. I'm always eager to learn new skills to keep myself busy.</p>
             <p>Currently looking for an internship for internships so I can get some real world experience and to learn from experienced software engineers as I develop my skill set </p >
             <img src="" alt="Dom Dawson"/>
-            <p>If you're interested in working with me, feel free to check out my CV</p>
-            <a href="/Dom Dawson CV.pdf" download="Dom Dawson CV.pdf">
-            <button className="CV">Download CV</button>
-            </a>
                 <div>
                 <h3>Skills:</h3>
                 <SmallBox content="Python"/>
