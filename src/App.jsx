@@ -19,6 +19,7 @@ function App() {
       <div id="intro">
       <Title/>
       <Intro />
+      <div className="curve"></div>
       </div>
       <div id="about">
       <Header header="📕 About Me" />
