@@ -21,6 +21,6 @@ button {
 }
 
 button:hover {
-  background-color: gray;
+  background-color: #9999dd;
   color: black;
 }

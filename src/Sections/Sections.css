@@ -16,9 +16,9 @@
 }
 
 .skills ul li:hover {
-  border: 1px solid #00aced;
-  border-bottom: 3px solid #00aced;
-  background-color: #00aced33;
+  border: 1px solid #22223b;
+  border-bottom: 3px solid #22223b;
+  background-color: #9999dd;
 }
 
 .achievements ul {
@@ -60,47 +60,5 @@
 .intro, .about-me, .skills, .achievements {
   margin: 0 auto;
   padding: 70px;
-}
-
-.top-wave {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.top-wave svg {
-    position: relative;
-    display: block;
-    width: calc(158% + 1.3px);
-    height: 160px;
-    transform: rotateY(180deg);
-}
-
-.top-wave .shape-fill {
-    fill: #FFFFFF;
-}
-
-.bottom-wave {
-    position: relative;
-    bottom: -250px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.bottom-wave svg {
-    position: relative;
-    display: block;
-    width: calc(140% + 1.3px);
-    height: 171px;
-}
-
-.bottom-wave .shape-fill {
-    fill: #FFFFFF;
 }
 

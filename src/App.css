@@ -8,7 +8,8 @@
 
 body {
   margin: 0;
-  background-color: #1e1e2f;
+  padding: 100px 0;
+  background-color: #22223b;
   color: #ffffff;
   overflow-x: hidden;
 }
@@ -24,41 +25,41 @@ section {
 }
 
 #intro {
-  background-color:  #ff7e5f;
+  background-color:  #093a3e;
 }
 #about {
-  background-color:  #6a11cb;
+  background-color:  #3aafb9;
 }
 #projects {
-  background-color:  #43cea2 ;
+  background-color:  #5bd5da ;
 }
 #contact {
-  background-color:  #dd2476;
+  background-color:  #97c8eb;
 }
 
-.custom-shape-divider-top-1770420628 {
+.wave-1 {
     position: absolute;
-    bottom: 215px;
+    bottom: 170px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
 }
 
-.custom-shape-divider-top-1770420628 svg {
+.wave-1 svg {
     position: relative;
     display: block;
     width: calc(113% + 1.3px);
     height: 150px;
 }
 
-.custom-shape-divider-top-1770420628 .shape-fill {
-    fill: #FF7E5F;
+.wave-1 .shape-fill {
+    fill: #093a3e;
 }
 
-.custom-shape-divider-top-1770420816 {
+.wave-2 {
     position: absolute;
-    bottom: -1490px;
+    bottom: -1540px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -66,20 +67,20 @@ section {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1770420816 svg {
+.wave-2 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 149px;
 }
 
-.custom-shape-divider-top-1770420816 .shape-fill {
-    fill: #6A11CB;
+.wave-2 .shape-fill {
+    fill: #3aafb9;
 }
 
-.custom-shape-divider-top-1770421127 {
+.wave-3 {
     position: absolute;
-    bottom: -2460px;
+    bottom: -2510px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -87,7 +88,7 @@ section {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1770421127 svg {
+.wave-3 svg {
     position: relative;
     display: block;
     width: calc(161% + 1.3px);
@@ -95,6 +96,56 @@ section {
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1770421127 .shape-fill {
-    fill: #43CEA2;
+.wave-3 .shape-fill {
+    fill: #5bd5da;
+}
+
+.top-wave {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.top-wave svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 160px;
+    transform: rotateY(180deg);
+}
+
+.top-wave .shape-fill {
+    fill: #22223b;
+}
+
+.bottom-wave {
+    position: relative;
+    bottom: -250px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.bottom-wave svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 171px;
+}
+
+.bottom-wave .shape-fill {
+    fill: #22223b;
+}
+
+.NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 1000;
 }
