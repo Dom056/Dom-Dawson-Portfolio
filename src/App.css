@@ -8,14 +8,15 @@
 
 body {
   margin: 0;
-  padding: 100px 0;
+  padding: 110px 0;
   background-color: #22223b;
   color: #ffffff;
   overflow-x: hidden;
 }
 
 section {
-  width: 100%;
+  max-width: 100%;
+  position: relative;
   
 }
 
@@ -40,17 +41,16 @@ section {
 
 .wave-1 {
     position: absolute;
-    bottom: 250px;
+    top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
     line-height: 0;
 }
 
-.wave-1 svg {
+.wave-1 svg, .wave-2 svg {
     position: relative;
     display: block;
-    width: calc(113% + 1.3px);
+    width: 100%;
     height: 150px;
 }
 
@@ -60,19 +60,11 @@ section {
 
 .wave-2 {
     position: absolute;
-    bottom: -1240px;
+    top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-}
-
-.wave-2 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 149px;
 }
 
 .wave-2 .shape-fill {
@@ -81,10 +73,9 @@ section {
 
 .wave-3 {
     position: absolute;
-    bottom: -2510px;
+    top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
 }
@@ -92,7 +83,7 @@ section {
 .wave-3 svg {
     position: relative;
     display: block;
-    width: calc(161% + 1.3px);
+    width: 100%;
     height: 149px;
     transform: rotateY(180deg);
 }
@@ -103,7 +94,7 @@ section {
 
 .top-wave {
     position: absolute;
-    top: 100px;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -113,12 +104,12 @@ section {
 .top-wave svg {
     position: relative;
     display: block;
-    width: calc(158% + 1.3px);
+    width: 100%;
     height: 160px;
     transform: rotateY(180deg);
 }
 
-.top-wave .shape-fill {
+.top-wave .shape-fill, .bottom-wave .shape-fill {
     fill: #22223b;
 }
 
@@ -135,12 +126,8 @@ section {
 .bottom-wave svg {
     position: relative;
     display: block;
-    width: calc(140% + 1.3px);
+    width: 100%;
     height: 171px;
-}
-
-.bottom-wave .shape-fill {
-    fill: #22223b;
 }
 
 .NavBar {
