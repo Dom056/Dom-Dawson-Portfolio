@@ -1,3 +1,5 @@
+import './Sections.css';
+
 function Project () {
     return (
         <div className="project">   
