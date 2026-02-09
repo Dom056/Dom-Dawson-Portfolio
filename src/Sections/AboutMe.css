@@ -14,15 +14,15 @@
   width: 100%;  
 }
 
-.profile-pic {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
+.group-pic {
+  width: 550px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .about-text {
   max-width: 800px;
-  margin: 0 70px;
+  margin: 30px 70px;
 }
 
 .skills ul {

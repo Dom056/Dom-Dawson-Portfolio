@@ -1,0 +1,17 @@
+.profile-pic {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.intro-text {
+  max-width: 800px;
+  margin: 70px 70px;
+}
+
+.intro {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}

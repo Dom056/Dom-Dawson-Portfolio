@@ -1,9 +1,15 @@
+import Pic1 from "../Assets/Profile picture.png";
+import "./Intro.css";
+
 function Intro() {
   return (
     <div className="intro">
-      <p>Hey there! I'm Dom Dawson, a 26 y/o Software engineering student located in Bournemouth, UK.</p>
-      <p>Experienced in Python, JavaScript, HTML, CSS and more.</p>
-      <p>Currently looking for an internship!</p>
+       <div className="intro-text">
+      <p>Hey there! I'm Dom Dawson, a 26 y/o Software engineering student based in Bournemouth, UK.</p>
+      <p>I'm a full stack developer with a strong passion for front end development and design with experience in Python, JavaScript, HTML, CSS and more.</p>
+      <p>Currently looking for an internship to help me grow as a developer.</p>
+    </div>
+     <img className="profile-pic" src={Pic1} alt="Dom Dawson"/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import Box from "../Components/Box.jsx";
-import Pic from "../Assets/Profile picture.png";
+import Pic2 from "../Assets/CIB GroupPhoto.jpg";
 import Python from "../Assets/python.png"
 import JavaScript from "../Assets/js.png"
 import react from "../Assets/react.png"
@@ -18,7 +18,7 @@ function AboutMe() {
     return (
         <div className="about-me">
             <div className="about-me-section">
-            <img className="profile-pic" src={Pic} alt="Dom Dawson"/>
+            <img className="group-pic" src={Pic2} alt="CIB Group Photo"/>
             <div className="about-text">
             <p>I'm a Second year Software engineering student at Bournemouth University with a focus on full stack web development. </p>
             <p>I've always been driven by creating practical solutions to real world problems and have worked across every stage of web development. From designing UI wireframes, building frontend components and developing backend functionality. To testing, QA and launch. I pride myself in producing high-quality work for every project I undertake. </p>

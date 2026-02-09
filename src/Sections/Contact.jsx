@@ -24,7 +24,7 @@ function  Contact() {
 
     return (
         <div className="contact">
-            <p>If you'd like to get in touch, feel free to reach out to me :)</p>
+            <p>If you'd like to get in touch or want to network, feel free to reach out to me :)</p>
             <h3>Get in Touch:</h3>
             <button 
                 className="Email" 
