@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import GitHub from '../Assets/github.png'
-import LinkedIn from '../Assets/linkedin.png'
-import Email from '../Assets/email.png'
-import Phone from '../Assets/phone-call.png'
+import GitHub from '../assets/github.png'
+import LinkedIn from '../assets/linkedin.png'
+import Email from '../assets/email.png'
+import Phone from '../assets/phone-call.png'
 import './Contact.css'
 
 function  Contact() {
