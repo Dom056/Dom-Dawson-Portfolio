@@ -1,4 +1,3 @@
-import Pic1 from "../Assets/profile-picture.png";
 import "./Intro.css";
 
 function Intro() {
@@ -9,7 +8,7 @@ function Intro() {
       <p>I'm a full stack developer with a strong passion for front end development and design with experience in Python, JavaScript, HTML, CSS and more.</p>
       <p>Currently looking for an internship to help me grow as a developer.</p>
     </div>
-     <img className="profile-pic" src={Pic1} alt="Dom Dawson"/>
+     <img className="profile-pic" src="/profile-picture.png" alt="Dom Dawson"/>
     </div>
   )
 }
