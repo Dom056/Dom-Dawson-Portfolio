@@ -1,15 +1,15 @@
 import Box from "../Components/Box.jsx";
-import Python from "../Assets/python.png"
-import JavaScript from "../Assets/js.png"
-import react from "../Assets/react.png"
-import HTML from "../Assets/html-5.png"
-import MySQL from "../Assets/mysql.png"
-import Git from "../Assets/git.png"
-import Docker from "../Assets/docker.png"
-import Figma from "../Assets/figma.png"
-import MongoDB from "../Assets/mongodb.png"
-import Express from "../Assets/express.png"
-import CSS from "../Assets/css-3.png"
+import Python from "../assets/python.png"
+import JavaScript from "../assets/js.png"
+import react from "../assets/react.png"
+import HTML from "../assets/html-5.png"
+import MySQL from "../assets/mysql.png"
+import Git from "../assets/git.png"
+import Docker from "../assets/docker.png"
+import Figma from "../assets/figma.png"
+import MongoDB from "../assets/mongodb.png"
+import Express from "../assets/express.png"
+import CSS from "../assets/css-3.png"
 
 import "./AboutMe.css";
 
