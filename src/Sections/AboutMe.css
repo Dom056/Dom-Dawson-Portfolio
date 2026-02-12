@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 30px;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   margin: 0 30px;
 }
 
@@ -17,6 +17,7 @@
 
 .group-pic {
   width: 550px;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -72,6 +73,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .tech-item {
@@ -86,4 +88,26 @@
   width: 30px;
   height: 30px;
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    margin: 0 15px;
+    padding: 0 10px;
+    gap: 20px;
+  }
+  
+  .about-text {
+    margin: 20px 20px;
+  }
+  
+  .group-pic {
+    width: 100%; 
+    max-width: 400px;
+  }
+  
+  .skills ul li,
+  .achievements ul li {
+    margin: 5px 10px; 
+  }
 }

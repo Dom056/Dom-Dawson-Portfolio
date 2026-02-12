@@ -33,12 +33,6 @@ section {
   padding: 0 1rem;
 }
 
-@media (max-width: 768px) {
-  body {
-    padding: 80px 0;
-  }
-}
-
 #intro, #about, #projects, #contact {
   padding : 250px 0;
   margin: 0;
@@ -155,4 +149,34 @@ section {
   width: 100%;
   padding: 30px 0;
   z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 80px 0;
+  }
+  
+  #intro, #about, #projects, #contact {
+    padding: 150px 0;
+  }
+  
+  .NavBar {
+    padding: 15px 0; 
+  }
+  
+  .wave-1 svg, .wave-2 svg {
+    height: 100px;
+  }
+  
+  .wave-3 svg {
+    height: 100px;
+  }
+  
+  .top-wave svg {
+    height: 100px;
+  }
+  
+  .bottom-wave svg {
+    height: 100px;
+  }
 }

@@ -27,6 +27,17 @@ button:hover {
 }
 
 .contact {
-  max-width: 100vw;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) { 
+  .contact { 
+    padding: 0 10px; } 
+
+  button { 
+    width: 120px; 
+    height: 40px; 
+    font-size: 14px; } 
 }
