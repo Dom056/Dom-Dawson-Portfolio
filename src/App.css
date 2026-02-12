@@ -11,14 +11,6 @@
   box-sizing: border-box;
 }
 
-html, body, #root { 
-  color-scheme: light;
-}
-
-section, .intro, .about, .projects, .contact, .top-wave, .bottom-wave, .wave-1, .wave-2, .wave-3 {
-  color-scheme: light;
-}
-
 body {
   margin: 0;
   padding: 110px 0;
@@ -189,7 +181,56 @@ section {
     height: 100px;
   }
   
+  .bottom-wave { 
+    bottom: -150px; 
+  }
+
   .bottom-wave svg {
     height: 100px;
+  }
+}
+
+/* Dark mode styling to ensure dark mode doesn't change colours*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #22223b !important;
+    color: #ffffff !important;
+  }
+  
+  #intro {
+    background-color: #093a3e !important;
+  }
+  
+  #about {
+    background-color: #3aafb9 !important;
+  }
+  
+  #projects {
+    background-color: #5bd5da !important;
+  }
+  
+  #contact {
+    background-color: #97c8eb !important;
+  }
+  
+  .nav-bar {
+    background-color: #22223b !important;
+    border-color: white !important;
+  }
+  
+  .wave-1 .shape-fill {
+    fill: #093a3e !important;
+  }
+  
+  .wave-2 .shape-fill {
+    fill: #3aafb9 !important;
+  }
+  
+  .wave-3 .shape-fill {
+    fill: #5bd5da !important;
+  }
+  
+  .top-wave .shape-fill, .bottom-wave .shape-fill {
+    fill: #22223b !important;
   }
 }

@@ -71,8 +71,7 @@ html {
         flex-shrink: 1;
     }
     .name {
-        padding: 0 10px; 
-        max-width: 80px;
+        display: none; }
     }
     .name h3 {
         font-size: 15px;
@@ -86,4 +85,3 @@ html {
         padding: 6px 12px;
         white-space: nowrap;
     }
-}
