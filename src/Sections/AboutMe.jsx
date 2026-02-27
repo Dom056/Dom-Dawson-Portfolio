@@ -22,7 +22,7 @@ function AboutMe() {
             <p>I'm a Second year Software engineering student at Bournemouth University with a focus on full stack web development. </p>
             <p>I've always been driven by creating practical solutions to real world problems and have worked across every stage of web development. From designing UI wireframes, building frontend components and developing backend functionality. To testing, QA and launch. I pride myself in producing high-quality work for every project I undertake. </p>
             <p>Outside of coding I'm constantly working on DIY tech projects, whether it be tinkering with raspberry pis, dabbling in electronics or 3D printing custom housings. I'm always eager to learn new skills to keep myself busy.</p>
-            <p>Currently looking for an internship for internships so I can get some real world experience and to learn from experienced software engineers as I develop my skill set. </p >
+            <p>Currently looking for an internship so I can get some real world experience and to learn from experienced software engineers as I develop my skill set. </p >
             </div>
             </div>
                 <div className="skills">    
